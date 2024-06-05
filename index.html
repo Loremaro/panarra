@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Página Portada</title>
+	<style type="text/css">
+
+		#bloque_foto_portada {background-color: #000; width: 50%; float: left; height: 400px; }
+		
+		#bloque_logotipo_titulos {background-color: #000 ;width: 50%; float: right; height: 400px; text-align: center }
+
+		#foto_portada {height: 400px; }
+		#logotipo {width: 100px; height: 100px; margin: 20px;}
+		#titulo_1 {color: #fff; font-size: 3em; margin: 30px;}
+		#titulo_2 {color: #fff; font-size: 1.5em; margin: 30px;}
+		#boton_suscribe {color: #fff; font-size: 1.5em; background-color: #2874A6; width: 150px; margin: 30px auto; border-radius: 80px;}
+		#bloque_menu {width: 75.7%; float: left; background-color: grey; height: 30px;  }
+		.menu_navegacion {width: 6%; float: left; background-color: grey; color: #fff; margin-left: 1px; text-align: center; height: 25px; padding-top: 5px; }	
+		.bloque_galleta {width: 20%; float: left; margin-left: 50px; margin-top: 5%;text-align: center; }
+		.foto_galleta {width: 200px; height: 200px; border-radius: 50%; }
+		.nombre_pan {height: 40px; background-color: #2874A6; color: #fff; font-size: 2.5em; }
+	
+
+
+	</style>
+</head>
+<body>
+	<header>
+		<div id="bloque_foto_portada">
+
+			<img id="foto_portada"  src="./imagenes/Foto_de_portada.png" alt="foto pan de pueblo">
+		</div>
+
+		<div id="bloque_logotipo_titulos">
+
+			<img id="logotipo" src="./imagenes/Logo_panarra.png" alt="foto logotipo de la panaderia">
+
+			<div id="titulo_1">
+			Panarras del Mundo
+			</div>
+
+			<div id="titulo_2">
+			Recetas y curiosidades relacionadas con los panes
+			</div>
+
+			<a href="#" style="text-decoration: none;"><div id=boton_suscribe>Subscribirse</div></a>
+		
+		</div>
+	</header>
+
+	<nav>
+		<div id="bloque_menu">&nbsp</div>
+
+			<a href="#"><div class="menu_navegacion">INICIO</div></a>
+			<a href="recetas.html"><div class="menu_navegacion">RECETAS</div></a>
+			<a href="tienda.html"><div class="menu_navegacion">TIENDA</div></a>
+			<a href="trucos.html"><div class="menu_navegacion">TRUCOS</div></a>
+	</nav>
+
+	<main>
+		<article>
+
+			<section class="bloque_galleta">
+				<div><img class="foto_galleta" src="./imagenes/barra_de_pan.webp" alt="foto barras de pan"></div>
+				<div class="nombre_pan">Barra de pan</div>
+				<div>precio</div>
+			</section>
+
+			<section class="bloque_galleta">
+				<div><img class="foto_galleta" src="./imagenes/pan_blanco.png" alt="foto pan blanco"></div>
+				<div class="nombre_pan">Pan Blanco</div>
+				<div>precio</div>
+			</section>
+
+			<section class="bloque_galleta">
+				<div><img class="foto_galleta" src="./imagenes/pan_trigo_sarraceno.png" alt="foto pan trigo sarraceno"></div>
+				<div class="nombre_pan">Pan de Trigo Sarraceno</div>
+				<div>precio</div>
+			</section>
+
+			<section class="bloque_galleta">
+				<div><img class="foto_galleta" src="./imagenes/pan_candela.jpg" alt="foto pan candela"></div>
+				<div class="nombre_pan">Pan Candela</div>
+				<div>precio</div>
+			</section>
+
+		</article>
+	</main>
+	<aside></aside>
+	<footer></footer>
+</body>
+</html>
